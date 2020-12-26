@@ -1,0 +1,16 @@
+<p>cleaners works!</p>
+
+
+<h2>{{cleaners.name | uppercase}} Details</h2>
+
+
+<h2>{{cleaners.name}} Details</h2>
+<div><span>id: </span>{{cleaners.id}}</div>
+<div><span>name: </span>{{cleaners.name}}</div>
+
+
+<div>
+  <label>name:
+    <input [(ngModel)]="cleaners.name" placeholder="name"/>
+  </label>
+</div>
